@@ -8,11 +8,11 @@ import { ContactComponent } from './Components/contact/contact.component';
 import { NotfoundComponent } from './Components/notfound/notfound.component';
 
 const routes: Routes = [
-  {path:"", redirectTo: "startFramework" , pathMatch:'full'},
-  {path:"startFramework", component: HomeComponent , title: "Home"},
-  {path:"about", component: AboutComponent, title: "About"},
-  {path:"portfolio", component:ServicesComponent, title: "Portofolio"},
-  {path:"contact", component:ContactComponent, title: "Contact Us"},
+  {path:"", redirectTo: "/startFramework" , pathMatch:'full'},
+  {path:"/startFramework", component: HomeComponent , title: "Home"},
+  {path:"/about", component: AboutComponent, title: "About"},
+  {path:"/portfolio", component:ServicesComponent, title: "Portofolio"},
+  {path:"/contact", component:ContactComponent, title: "Contact Us"},
   {path:"**", component:NotfoundComponent , title: "Error 404"},
 ];
 
