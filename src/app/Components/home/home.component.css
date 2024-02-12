@@ -1,0 +1,13 @@
+body {
+    background-color: #1ABC9C;
+}
+
+.line {
+    height: 4px;
+    width: 80px;
+    background-color: white;
+}
+
+.image {
+    width: 23%;
+}
